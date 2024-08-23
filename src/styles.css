@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #6366F1;
+}
+
+#navbar{
+    padding: 8px;
+    margin: 0;
+}
+#logo{
+    width: 20%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+#banner{
+    width: 100%;
+    object-fit: cover;
+     
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+#description{
+    width: 50%;
+    font-size: 1.25rem;
+}
+#team{
+    width: 50%;
+    
+}
+#team-image{
+    border-radius: 5px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3{
+    margin-bottom: 8px;
+}
+
+.location{
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.apply{
+    float: right;
+}
+#footer{
+    background-color: gray;
+    margin-top: 32px;
+    padding: 20px;
+    text-align: center;
+}
+#footer-links{
+    list-style: none;
+    
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 30px;
+} 
+
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+   
+}
+.jobs-header-row th{
+    border:1px solid gray;
+    padding: 8px;
+    background-color: #6EE7B7;
+
+}
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: rgb(9, 247, 180);
+   
+}
+.form-group{
+    padding: 10px;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+#application-form{
+    font-weight: 600;
+}
+#application-form input, select, textarea{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin: 4px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.form-group textarea{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.form-group input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+.form-group input[type="submit"]{
+    background-color: rgb(0, 140, 255);
+    color: white    ;
+}
